@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<JUCERPROJECT id="h8nZaT" name="PFMProject0" projectType="audioplug" jucerVersion="5.4.5">
+<JUCERPROJECT id="h8nZaT" name="PFMProject0" projectType="audioplug" jucerVersion="5.4.5"
+              pluginCharacteristicsValue="pluginIsSynth">
   <MAINGROUP id="RIN7Ys" name="PFMProject0">
     <GROUP id="{F1E79F53-2F08-4020-830A-143A0DEFFCA8}" name="Source">
       <FILE id="kFkWnM" name="PluginProcessor.cpp" compile="1" resource="0"
@@ -54,7 +55,7 @@
     <MODULE id="juce_opengl" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
   </MODULES>
   <LIVE_SETTINGS>
-    <OSX/>
+    <OSX buildEnabled="1"/>
   </LIVE_SETTINGS>
   <JUCEOPTIONS JUCE_VST3_CAN_REPLACE_VST2="0" JUCE_STRICT_REFCOUNTEDPOINTER="1"/>
 </JUCERPROJECT>
